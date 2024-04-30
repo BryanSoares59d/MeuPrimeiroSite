@@ -1,15 +1,31 @@
 body{
     background-color: rgba(32, 0, 107, 0.918);
+    background-image: url(../img/fundo_rickmorty.jpg);
+    background-repeat: no-repeat;
 }
 
 header{
-    background-color: rgb(25, 187, 52);
     text-align: center;
     padding: 3%;
 }
 
+#menu ul{
+    padding: 0px;
+    margin: 0px;
+    background-color: #EDEDED;
+    list-style: none;
+}
+
+#menu ul li {display: inline;}
+
+#menu ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid blueviolet;
+}
 .logo{
-    background-color: rgb(115, 39, 185);
+    background-color: rgb(144,36,138);
 }
 
 nav{
@@ -17,25 +33,25 @@ nav{
 }
 
 main{
-    background-color: rgb(219, 144, 31);
+    background-color: transparent;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: rgba(167, 230, 255, 0.87);
-    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 0,7%;
     margin-left: auto;
     margin-right: auto;
 }
 
 footer{
-    background-color: rgb(112,48,160);
+    background-color: rgb(144,36,138);
     font-size: 23px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    padding: 3%;
+    padding: 1%;
 }
 
 h1,h2{
